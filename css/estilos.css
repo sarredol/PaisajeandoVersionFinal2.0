@@ -1,0 +1,488 @@
+/* Codigo CSS para el HEADER y FOOTER */
+
+
+
+/* CSS HEADER */
+
+/* Reset de estilos para quitar los márgenes predeterminados del navegador */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+#Qhacer{
+    background-image: url("../img/San\ Rafael1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* Estilos generales para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    top: 0;            /* Lo coloca en la parte superior de la ventana del navegador */
+    width: 100%;       /* Ocupa el 100% del ancho de la ventana */
+    height: 60px;
+     
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 60px;
+}
+
+.logo img{
+    width: 90px;
+    height: 90px;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Cambiar el color del enlace al pasar el ratón por encima */
+.menu a:hover {
+    color: #FFD700;
+}
+
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu li a{
+    display: block;
+    padding: 15px 15px;
+    color: white;
+   
+}
+.submenu{
+    position: absolute;
+    display:none;
+    list-style: none;
+    width: 300px;
+    background-color: #445940;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: start;
+    padding: 20px;
+}
+
+.submenu li a:hover{
+    padding: 5px;
+}
+
+.submenu button{
+    float: inline-end;
+    background-color: #333;
+}
+.menu li:hover .submenu{
+    display: block;
+}
+.submenu li a{
+    padding: 1px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.buscar input{
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+
+/* CSS FOOTER */
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.footer-logo img {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    
+}
+
+.footer-contact, .footer-social {
+    flex: 1;
+    margin-left: 150px;
+    
+
+}
+
+.footer-contact h3, .footer-social h3 {
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer-contact p {
+    margin: 10px 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.footer-social ul li {
+    margin-bottom: 10px;
+}
+
+.footer-social ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.footer-social ul li a:hover {
+    text-decoration: underline;
+    opacity: 0.6;
+}
+
+.footer-social li a img{
+    width: 50px;
+}
+
+.footer-contact a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+.footer-contact a:hover{
+    color: #FFD700;
+}
+
+.footer-piedepagina{
+    height: 20px;
+    padding: 10px;
+    background-color: #81BB00;
+    
+}
+
+.footer-piedepagina p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 0;
+    color: black;
+
+}
+
+/* A PARTIR DE ESTA LINEA CADA UNO AGREGA SU CSS DEL MENU */
+
+
+
+
+/* AQUI INICIA EL CSS DE JUAN ANDRES */
+
+
+.contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.card{
+    width: 350px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 10px;
+    overflow: hidden;
+    padding: 30px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #ffffffc9;
+    
+}
+
+.card img{
+    width: 75px;
+    height: 75px;
+}
+
+.card a:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.card h2:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+
+.card h2{
+    text-align: center;
+    color: #445940;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card p{
+    text-align: justify;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+
+.botonvermas{
+    margin-top: 15px
+    
+}
+
+.ver-mas{
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    background-color: #445940;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.ver-mas:hover{
+    opacity: 0.8;
+}
+
+
+/* AQUI TERMINA EL CSS DE JUAN ANDRES */
+
+
+
+/* AQUI INICIA DE ADONDE IR*/
+
+.vtm img{
+    width: 100%;
+}
+.tituloh2{
+    font-size: 40px;
+    color: #445940;
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'Magra', sans-serif;
+}
+.seleccionB{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+    margin-top: 40px;
+}
+.seleccionB input{
+    padding: 15px 80px;
+    font-size: 18px;
+    color: #445940;
+    border: 1px solid #445940;
+    border-radius: 1400px;
+    margin-left: 30px;
+}
+.vertodosm{ 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+    }
+
+.Visitanos1{
+    background-image: url(../img/vtm1.jpg);
+    width: 469.2px;
+    height: 400px;
+    margin:20px 20px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.Visitanos2{
+    background-image: url(../img/vtm2.jpg);
+    width: 469.2px;
+    height: 400px;
+    margin:20px 20px;
+    margin-top: 20px;
+}
+.Visitanos3{
+    background-image: url(../img/vtm3.jpg);
+    width: 469.2px;
+    height: 400px;
+    margin:20px 20px;
+    margin-top: 20px;
+}
+.Visitanos4{
+    background-image: url(../img/vtm4.jpg);
+    width: 469.2px;
+    height: 400px;
+    margin:20px 20px;
+    margin-top: 20px;
+}
+.Visitanos5{
+    background-image: url(../img/vtm5.jpg);
+    width: 469.2px;
+    height: 400px;
+    margin:20px 20px;
+    margin-top: 20px;
+}
+.Visitanos6{
+    background-image: url(../img/vtm6.jpg);
+    width: 469.2px;
+    height: 400px;
+    margin:20px 20px;
+    margin-top: 20px;
+}
+.vtm_p{
+    font-size: 40px;
+    color: white;
+    float: none;
+    margin-top: 230px;
+    font-family: 'Magra', sans-serif;
+    margin-left: 50px;
+    
+}
+.vd{
+    padding: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: #445940;
+    border: 1px solid white;
+    border-radius: 40px;
+    font-family: 'Magra', sans-serif;
+    background-color: white;
+    float: left;
+    margin-left: 50px;
+}
+/* AQUI TERMINA DE ADONDE IR*/
+
+/* AQUI INICIA ADONDE IR ARBOLETES*/
+
+.Air img{
+    height: 700px;
+    width: 100%;
+}
+.elementor1{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+}
+.elementor{
+     background-color: #445940eb;
+     color: white;
+     padding: 49px;
+     display: flex;
+     justify-content: center;
+     width: 70%;
+     margin: 0px auto;
+     flex-direction: column;
+     align-items: center;
+     position: absolute;
+     bottom: 90px;
+     left: 280px;
+     
+} 
+ 
+.elementitulo h1{
+     font-size: 65px;
+     margin-bottom: 40px;
+     
+}
+.Air1{
+     margin: 5px 50px;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+}
+.elementor2{
+     margin-top: 271px;
+     text-align: center;
+}
+.slider-frame{
+     padding: 10px;
+     display: flex;
+     justify-content: center;
+     width: 90%;
+     margin: -172px auto;
+     align-items: center;
+     
+}
+.slider-frame img{
+     object-fit: cover;
+     margin-right: 5px;
+     height:auto;
+     max-width: 100%;
+     border: none;
+     border-radius: 0;
+     box-shadow: none;
+     display: block;
+     
+}
+ .slider-frame img:nth-child(1) { 
+     display: none;
+}
+ .slider-frame img:nth-child(2) {
+     display: none;
+}
+.slider-frame img:nth-child(3) {
+     display: none;
+}
+#contePuntos{
+     display: flex;
+     justify-content: center;
+     margin-top: 118px;
+}
+#contePuntos > a{
+     font-size: 4.8em;
+     text-decoration: none;
+     color: black;
+     padding: 5px;
+}
+.historiAR{
+     text-align: justify;
+     padding: 5px;
+     margin: 0 270px;
+}  
+
+ /* AQUI TERMINA ADONDE IR ARBOLETES*/
+
