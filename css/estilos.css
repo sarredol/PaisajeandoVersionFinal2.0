@@ -305,10 +305,10 @@ footer {
 }
 .tituloh2{
     font-size: 40px;
+    font-family: 'Magra', sans-serif;
     color: #445940;
     margin-top: 60px;
     text-align: center;
-    font-family: 'Magra', sans-serif;
 }
 .seleccionB{
     display: flex;
@@ -377,23 +377,25 @@ footer {
 .vtm_p{
     font-size: 40px;
     color: white;
-    float: none;
-    margin-top: 230px;
+    /* float: none; */
+    margin-top: 298px;
     font-family: 'Magra', sans-serif;
-    margin-left: 50px;
+    margin-left: 3px;
+    text-align: center;
     
 }
 .vd{
-    padding: 10px;
+    padding: 8px;
     padding-left: 10px;
     font-size: 20px;
     color: #445940;
     border: 1px solid white;
     border-radius: 40px;
     font-family: 'Magra', sans-serif;
-    background-color: white;
+    background-color: #ffffffad;
     float: left;
-    margin-left: 50px;
+    margin-left: 175px;
+    text-align: center;
 }
 /* AQUI TERMINA DE ADONDE IR*/
 
@@ -411,16 +413,16 @@ footer {
 .elementor{
      background-color: #445940eb;
      color: white;
-     padding: 49px;
      display: flex;
      justify-content: center;
      width: 70%;
      margin: 0px auto;
      flex-direction: column;
      align-items: center;
-     position: absolute;
-     bottom: 90px;
-     left: 280px;
+     position: relative;
+     bottom: 112px;
+     font-size: 20px;
+     font-family: 'Magra', sans-serif;
      
 } 
  
@@ -435,17 +437,19 @@ footer {
      flex-direction: column;
      text-align: center;
 }
-.elementor2{
-     margin-top: 271px;
-     text-align: center;
+.Subtitulo1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Magra', sans-serif;
+    color: #445940;
 }
 .slider-frame{
-     padding: 10px;
-     display: flex;
-     justify-content: center;
-     width: 90%;
-     margin: -172px auto;
-     align-items: center;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 30px auto;
+    align-items: center;
      
 }
 .slider-frame img{
@@ -471,7 +475,7 @@ footer {
 #contePuntos{
      display: flex;
      justify-content: center;
-     margin-top: 118px;
+     margin-top: 5px;
 }
 #contePuntos > a{
      font-size: 4.8em;
@@ -483,7 +487,21 @@ footer {
      text-align: justify;
      padding: 5px;
      margin: 0 270px;
-}  
+     font-family: 'Magra', sans-serif;
+     font-size: 15px;
+}
+.Subtitulo2{
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+    font-family: 'Magra', sans-serif;
+    color: #445940;
+    
+}
+.ActividadesAr{
+    text-align: center;
+    padding: 20px;
+}
 
  /* AQUI TERMINA ADONDE IR ARBOLETES*/
 
