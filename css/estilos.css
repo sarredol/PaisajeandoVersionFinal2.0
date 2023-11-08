@@ -224,6 +224,11 @@ footer {
     width: 100%;
 }
 
+#aventurainicial img{
+    width: 100%;
+    height: 300px;
+}
+
 .qhiconos{
     /* display: flex; */
 }
@@ -288,9 +293,14 @@ footer {
 }
  
 .prueba1qhelementitulo h3{
-     font-size: 40px;
-     margin: 40px;
-     
+    font-size: 40px;
+    margin: 40px;
+    color: white;   
+}
+
+.prueba1qhelementitulo a{
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .prueba1qhAir1{
