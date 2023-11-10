@@ -261,6 +261,7 @@ footer {
 
 .prueba1qhAir1_img{
     height: 250px;
+    padding: 5px;
 }
 
 
@@ -547,45 +548,13 @@ footer {
     font-family: 'Magra', sans-serif;
     color: #445940;
 }
-.slider-frame{
-    padding: 5px;
+.redes{
+    padding: 10px;
     display: flex;
     justify-content: center;
-    width: 90%;
-    margin: 30px auto;
-    align-items: center;
-     
 }
-.slider-frame img{
-     object-fit: cover;
-     margin-right: 5px;
-     height:auto;
-     max-width: 100%;
-     border: none;
-     border-radius: 0;
-     box-shadow: none;
-     display: block;
-     
-}
- .slider-frame img:nth-child(1) { 
-     display: none;
-}
- .slider-frame img:nth-child(2) {
-     display: none;
-}
-.slider-frame img:nth-child(3) {
-     display: none;
-}
-#contePuntos{
-     display: flex;
-     justify-content: center;
-     margin-top: 5px;
-}
-#contePuntos > a{
-     font-size: 4.8em;
-     text-decoration: none;
-     color: black;
-     padding: 5px;
+.redes img{
+    margin: 0 5px;
 }
 .historiAR{
      text-align: justify;
