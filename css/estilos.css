@@ -192,8 +192,7 @@ footer {
 }
 
 .footer-piedepagina{
-    height: 20px;
-    padding: 10px;
+    height: 25px;
     background-color: #81BB00;
     
 }
@@ -204,6 +203,7 @@ footer {
     text-align: center;
     margin-top: 0;
     color: black;
+    padding: auto;
 
 }
 
