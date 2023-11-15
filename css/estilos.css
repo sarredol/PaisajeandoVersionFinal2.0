@@ -587,4 +587,36 @@ footer {
 }
 
  /* AQUI TERMINA ADONDE IR ARBOLETES*/
+ 
+ /* css INDEX*/
+
+ .quienesSomos{
+    border: 1px;
+    border-radius: 10px;
+    background-color: gainsboro;
+    text-align: justify;
+    justify-content: center;
+    width: 90%;
+    height: 580px;
+    margin: 15px 30px 15px 50px;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Magra', sans-serif;
+
+    
+}
+.parrafoInicio{
+    border: 1px;
+    border-radius: 10px;
+   
+    text-align: justify;
+    justify-content: center;
+    width: 90%;
+    
+    margin: 15px 30px 15px 50px;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Magra', sans-serif;
+    
+}
 
