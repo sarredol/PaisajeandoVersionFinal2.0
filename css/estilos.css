@@ -233,7 +233,9 @@ footer {
     /* display: flex; */
 }
 
-
+.carrusel-inner{
+    margin-top: 5px;
+}
 
 
 
