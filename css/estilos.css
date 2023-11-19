@@ -215,9 +215,15 @@ footer {
 /* AQUI INICIA EL CSS DE JUAN ANDRES */
 
 
-.contenido{
+.contenido1{
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contenido2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .qhbackground img{
@@ -330,7 +336,19 @@ footer {
 .qhprev{
     margin-left: 500px;
 }
-
+.carousel-control-prevqh{
+    position: absolute;
+    top: 110px;
+    background: transparent;
+    border: transparent;
+}
+.carousel-control-nextqh{
+    position: absolute;
+    top: 110px;
+    margin-left: 889px;
+    background: transparent;
+    border: transparent;
+}
 
 
 
