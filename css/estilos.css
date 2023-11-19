@@ -367,73 +367,73 @@ footer {
     margin-left: 350px;
 }
 
-
-
-
-/* .card{
-    width: 350px;
-    height: 280px;
-    display: flex;
-    flex-direction: column;
-    margin: 15px 10px;
-    overflow: hidden;
-    padding: 30px;
-    border: 1px solid #333;
-    /* border-radius: 5px;
-    background-color: #ffffffb8;
+.section1aventura{
+    top: 0;
+    height: 750px;
+    background-image: url(../img/pareja-juntos-kayak-rio.jpg);
+    background-size: cover;
 }
 
-.card img{
-    width: 75px;
-    height: 75px;
+.section1gastronomia{
+    top: 0;
+    height: 750px;
+    background-image: url(../img/gastronomia-platos-tipico.jpg);
+    background-size: cover;
 }
 
-.card a:hover{
-    cursor: pointer;
-    opacity: 0.8;
+.section1puebliar{
+    top: 0;
+    height: 750px;
+    background-image: url(../img/hembras-mirando-mapa-apoyado-coche-mientras-su-amigo-masculino-gesticulando-carretera.jpg);
+    background-size: cover;
 }
 
-.card h2:hover{
-    cursor: pointer;
-    opacity: 0.8;
+.section1cultura{
+    top: 0;
+    height: 750px;
+    background-image: url(../img/dueno-floristeria-crea-alegres-arreglos-creativos-generados-ia.jpg);
+    background-size: cover;
 }
 
-
-
-.card h2{
-    text-align: center;
-    color: #445940;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.card p{
-    text-align: justify;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 15px;
-    color: black;
-}
-
-.botonvermas{
-    /* margin-top: 15px
-    
-}
-
-.ver-mas{
-    bottom: 0;
-    right: 0;
+.aventuraintroduc{
+    background-color: #445940eb;
     padding: 10px;
-    background-color: #333;
     color: white;
-    text-decoration: none;
-    cursor: pointer;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin-top: 15px
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Magra', sans-serif;
 }
 
-.ver-mas:hover{
-    opacity: 0.8;
-} */
+.aventuraparrafos p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    padding: 20px;
+}
+
+#aventuratexto2{
+    padding: 10px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    /* flex-direction: column; */
+    font-size: 20px;
+    font-family: 'Magra', sans-serif;
+}
+
+#aventuratexto2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
 
 
 /* AQUI TERMINA EL CSS DE JUAN ANDRES */
