@@ -706,3 +706,33 @@ footer {
     border-radius: 10px;
     margin-left: 10px;
 }
+.nuestroServicios{
+    width: 100%;
+    height: 300px;
+    background-color:  #445940;
+    font-family: 'Magra', sans-serif;
+    border-radius: 10px;
+    border: 1px;
+    align-items: center;
+    text-align: center;
+}
+.Subtitulo4{
+    text-align: justify;
+    font-size: 30px;
+    font-family: 'Magra', sans-serif;
+    color: white;
+    margin-left: 50px;
+}
+.parrafoservicios{
+    border: 1px;
+    border-radius: 10px;
+    font-family: 'Magra', sans-serif;
+    text-align: justify;
+    justify-content: center;
+    width: 90%;
+    margin: 15px 30px 15px 50px;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Magra', sans-serif;
+    color: aliceblue;
+}
