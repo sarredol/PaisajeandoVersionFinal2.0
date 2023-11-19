@@ -485,6 +485,8 @@ footer {
     margin:20px 20px;
     margin-top: 20px;
     flex-direction: column;
+    border: 1px;
+    border-radius: 10px;
 }
 .Visitanos2{
     background-image: url(../img/vtm2.jpg);
@@ -492,6 +494,8 @@ footer {
     height: 400px;
     margin:20px 20px;
     margin-top: 20px;
+    border: 1px;
+    border-radius: 10px;
 }
 .Visitanos3{
     background-image: url(../img/vtm3.jpg);
@@ -499,6 +503,8 @@ footer {
     height: 400px;
     margin:20px 20px;
     margin-top: 20px;
+    border: 1px;
+    border-radius: 10px;
 }
 .Visitanos4{
     background-image: url(../img/vtm4.jpg);
@@ -506,6 +512,8 @@ footer {
     height: 400px;
     margin:20px 20px;
     margin-top: 20px;
+    border: 1px;
+    border-radius: 10px;
 }
 .Visitanos5{
     background-image: url(../img/vtm5.jpg);
@@ -513,6 +521,8 @@ footer {
     height: 400px;
     margin:20px 20px;
     margin-top: 20px;
+    border: 1px;
+    border-radius: 10px;
 }
 .Visitanos6{
     background-image: url(../img/vtm6.jpg);
@@ -520,6 +530,8 @@ footer {
     height: 400px;
     margin:20px 20px;
     margin-top: 20px;
+    border: 1px;
+    border-radius: 10px;
 }
 .vd{
     bottom: 0;
@@ -622,11 +634,12 @@ footer {
     margin-right: 473px;
 }
 .historiAR{
-     text-align: justify;
-     padding: 5px;
-     margin: 0 270px;
-     font-family: 'Magra', sans-serif;
-     font-size: 15px;
+    text-align: justify;
+    padding: 10px;
+    margin: auto;
+    font-family: 'Magra', sans-serif;
+    font-size: 15px;
+    width: 70%;
 }
 .Subtitulo2{
     text-align: center;
@@ -666,7 +679,7 @@ footer {
     background-color: #445940;
     color: #fff;
     font-family: 'Magra', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
 }
 .direccionG{
     padding: 9px 164px;
@@ -684,31 +697,32 @@ footer {
     border-radius: 20px;
     margin-left: 30px;
 }
-.formulario{
+.formularioPueblos{
     text-align: justify;
     padding: 5px;
-    margin: 0 400px;
+    margin: auto;
     font-family: 'Magra', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
+    width: 70%;
 }
-.formulario h2{
+.formularioPueblos h2{
     font-size: 40px;
     font-family: 'Magra', sans-serif;
     color: #445940;
 }
-.formularioB {
+.formularioPueblosB {
     padding: 1px 165px;
     /* font-size: 18px; */
     color: #445940fa;
     border: 1px solid #4459408f;
     border-radius: 20px;
 }
-.formulario textarea{
+.formularioPueblos textarea{
     border: 1px solid #4459408f;
     border-radius: 20px;
     font-family: 'Magra', sans-serif;
 }
-.formulario button{
+.formularioPueblos button{
     border: 1px solid #4459408f;
     border-radius: 30px;
     font-family: 'Magra', sans-serif;
@@ -716,7 +730,7 @@ footer {
     color: #fff;
     padding: 10px;
 }
-.formulario button:hover {
+.formularioPueblos button:hover {
     cursor: pointer;
     opacity: 0.8;
 }
