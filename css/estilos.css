@@ -376,6 +376,7 @@ footer {
     height: 750px;
     background-image: url(../img/pareja-juntos-kayak-rio.jpg);
     background-size: cover;
+    padding: 10px;
 }
 
 .section1gastronomia{
@@ -383,6 +384,7 @@ footer {
     height: 750px;
     background-image: url(../img/gastronomia-platos-tipico.jpg);
     background-size: cover;
+    padding: 10px;
 }
 
 .section1puebliar{
@@ -390,6 +392,7 @@ footer {
     height: 750px;
     background-image: url(../img/hembras-mirando-mapa-apoyado-coche-mientras-su-amigo-masculino-gesticulando-carretera.jpg);
     background-size: cover;
+    padding: 10px;
 }
 
 .section1cultura{
@@ -397,10 +400,11 @@ footer {
     height: 750px;
     background-image: url(../img/dueno-floristeria-crea-alegres-arreglos-creativos-generados-ia.jpg);
     background-size: cover;
+    padding: 10px;
 }
 
 .aventuraintroduc{
-    background-color: #445940eb;
+    background-color: #445940a6;
     padding: 10px;
     color: white;
     display: flex;
