@@ -261,6 +261,10 @@ footer {
     border-radius: 10px;
 }    
 
+.qhaventura:hover{
+    opacity: 0.9;
+}
+
 .qhgastronomia{
     background-image: url(../img/qhgastronomia.png);
     background-size: cover;
@@ -270,6 +274,10 @@ footer {
     height: 500px;
     margin: 15px 30px 15px 50px;
     border-radius: 10px;
+}
+
+.qhgastronomia:hover{
+    opacity: 0.9;
 }
 
 .qhpuebliar{
@@ -283,6 +291,10 @@ footer {
     border-radius: 10px;
 }
 
+.qhpuebliar:hover{
+    opacity: 0.9;
+}
+
 .qhcultura{
     background-image: url(../img/qhcultura.png);
     background-size: cover;
@@ -292,6 +304,10 @@ footer {
     height: 500px;
     margin: 15px 30px 15px 50px;
     border-radius: 10px;
+}
+
+.qhcultura:hover{
+    opacity: 0.9;
 }
 
 /* .pAir1_img{
