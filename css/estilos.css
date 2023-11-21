@@ -878,10 +878,12 @@ form{
     margin-top: 30px;
     margin-bottom: 30px;
     padding: 50px 55px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px #445940;
     border-radius: 20px;
     text-align: center;
     width: 600px;
+    background-color: #4459400f;
+    font-family: 'Magra', sans-serif;
 }
 .input-group{
     display: flex;
