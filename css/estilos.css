@@ -459,11 +459,6 @@ footer {
 }
 
 
-.ActividadesGuatape img{
-    width: 98%;
-    border-radius: 10px;
-}
-
 
 
 
@@ -680,9 +675,10 @@ footer {
     color: #445940;
     
 }
-.ActividadesAr{
-    text-align: center;
-    padding: 20px;
+.ActividadesAr img{
+    width: 1120px;
+    height: 283px;
+
 }
 .comollegar{
     text-align: center;
