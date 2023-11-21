@@ -882,8 +882,8 @@ form{
     border-radius: 20px;
     text-align: center;
     width: 600px;
-    background-color: #4459400f;
     font-family: 'Magra', sans-serif;
+    background-color: white;
 }
 .input-group{
     display: flex;
