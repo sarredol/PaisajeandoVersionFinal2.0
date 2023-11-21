@@ -875,11 +875,13 @@ footer {
 }
 
 form{
+    margin-top: 30px;
+    margin-bottom: 30px;
     padding: 50px 55px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     text-align: center;
-    width: 340px;
+    width: 600px;
 }
 .input-group{
     display: flex;
@@ -887,11 +889,12 @@ form{
     text-align: left;
 }
 
-h2{
-   color: #283629;
-   font-size: 15px;
-   font-weight: 600;
-   margin-bottom: 15px; 
+#contactotitulo{
+   color: #445940;
+   font-size: 20px;
+   /* font-weight: 600; */
+   margin-bottom: 15px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 input, textarea{
@@ -932,7 +935,8 @@ input ::placeholder,textarea::placeholder{
     cursor: pointer;
 }
 .btn:hover{
-    background-color: #50E04B;
+    background-color: #445940;
+    color: white;
 
 }
 
