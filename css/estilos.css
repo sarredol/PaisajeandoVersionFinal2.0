@@ -123,6 +123,8 @@ nav {
 
 
 
+
+
 /* CSS FOOTER */
 
 
@@ -911,10 +913,11 @@ form{
 }
 
 input, textarea{
-    padding: 17px 25px;
+    padding: 14px 20px;
     border-radius: 25px;
-    margin-bottom: 20px;
-    background-color: #EDFFF0;
+    margin-top: 5px;
+    margin-bottom: 0;
+    background-color: white;
     border: 2PX solid #F0FAF1;
     color: #283629;
     outline: none;   
